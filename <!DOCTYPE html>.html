@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>You're Invited!</h1>
+        <p>Join us for a special celebration</p>
+    </header>
+
+    <section class="invitation">
+        <h2>Event Details</h2>
+        <p>Date: <strong>December 25, 2023</strong></p>
+        <p>Time: <strong>6:00 PM</strong></p>
+        <p>Location: <strong>123 Celebration Ave, Party City</strong></p>
+        <p>Dress Code: <strong>Formal Attire</strong></p>
+    </section>
+
+    <section class="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvpForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Message (optional)"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Event. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
